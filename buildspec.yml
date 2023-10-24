@@ -16,7 +16,7 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - - mv target/*.jar hello-world-rest-api-1.0.jar
+      - mv target/*.jar hello-world-rest-api-1.0.jar
  
 artifacts:
   files:
